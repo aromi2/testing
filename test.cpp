@@ -8,6 +8,8 @@ int main() {
     cout << "Enter input file name: ";
     cin >> file_name;
 
+    // commit testing
+
     //file 불러오기
     ifstream inFile;
     inFile.open(file_name);
@@ -18,6 +20,7 @@ int main() {
 
     if(inFile.is_open()){
         while(!inFile.eof()){
+
             inFile >> file_inform;
             inFile >> file_inform1;
             inFile >> file_inform2;
@@ -28,6 +31,10 @@ int main() {
             cout << file_inform3 << '\t' << endl;
             
         }
+
+        while
+
+        for(; !inFile.eof(); )
 
 
     }
